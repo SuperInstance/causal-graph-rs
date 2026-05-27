@@ -2,8 +2,15 @@
 name = "causal-graph"
 version = "0.1.0"
 edition = "2021"
-description = "DAG-based causal graph — topological sort, reachability, ancestor/descendant queries"
+description = "Causal discovery and inference — PC algorithm, do-calculus, counterfactual reasoning"
 license = "MIT"
-keywords = ["dag", "causal", "graph", "topological", "dependency"]
+keywords = ["causal", "graph", "dag", "inference", "superinstance"]
+categories = ["algorithms", "science"]
+repository = "https://github.com/SuperInstance/causal-graph-rs"
 
 [dependencies]
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+approx = "0.5"

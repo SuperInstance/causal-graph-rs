@@ -1,0 +1,9 @@
+[package]
+name = "causal-graph"
+version = "0.1.0"
+edition = "2021"
+description = "DAG-based causal graph — topological sort, reachability, ancestor/descendant queries"
+license = "MIT"
+keywords = ["dag", "causal", "graph", "topological", "dependency"]
+
+[dependencies]
